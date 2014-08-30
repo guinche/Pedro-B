@@ -1,0 +1,86 @@
+<!-- dia14.html -->
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+<!-- 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-responsive.min.css"> -->
+	<link rel="stylesheet" href="css/dia14.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Formularios HTML / CSSS	</h1>
+		<div class="row">
+			<form action="#">
+				
+				<fieldset class="span6">
+					<legend>
+						Título del fieldset
+					</legend>
+
+						<div class="row campo">
+							<label class="span2" for="nombre">Nombre y Apellido</label>
+							<input class="span4" type="text" name="nombre" id="nombre" required>
+						</div>
+
+						<div class="campo">
+							<label for="correo">Correo electrónico</label>
+							<input type="email" name="correo" id="correo" placeholder="higher.vnf@gmal.com" required>
+						</div>
+
+						<div class="campo">
+							<label for="clave">Clave</label>
+							<input type="password" name"clave" id="clave">
+
+						<div class="campo">
+							<label for="sexo">Sexo</label>
+							<div class="inner">
+								<input type="radio" name="sexo" id"masculino">
+								<label for="masculino">Masculino</label>
+							</div>
+							<div class="inner">
+								<input type="radio" name="sexo" id"femenino">
+								<label for="femenino">Femenino</label>
+							</div>
+						</div>
+						</div>
+
+						<div class="campo">
+							<label for="intereses">Interéses</label>
+							<div class="inner">
+								<input type="checkbox" name="intereses" id"masculino">
+								<label for="futbol">Fútbol</label>
+							</div>
+							<div class="inner">
+								<input type="checkbox" name="sexo" id"beisbol">
+								<label for="beisbol">Beisbol</label>
+							</div>
+							<div class="inner">
+								<input type="checkbox" name="sexo" id"natacion">
+								<label for="natacion">Natación</label>
+							</div>
+						</div>
+						</div>
+
+						<div class="row">
+					<input type="submit" name="enviar" value="Cick">
+
+				</div>
+
+				</fieldset>
+
+				
+
+				<fieldset class="span6">
+					<legend>
+						Título del fieldset
+					</legend>
+				</fieldset>
+			
+			</form>
+		</div>
+
+	</div>
+</body>
+</html>

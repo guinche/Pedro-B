@@ -1,0 +1,30 @@
+/*tareafinal.css*/
+#cont01{
+	height: 200px;
+	background-color: #33CC33;
+}
+.header01{
+	background-color: #33CC99; 
+}
+.logo{
+	position: absolute;
+}
+.menu{
+	display: inline-block;
+	float: right;
+}
+.menu ul{
+	padding: 0;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-style: 300;
+	color: #9999CC;
+}

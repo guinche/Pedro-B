@@ -1,0 +1,27 @@
+/* dia4.css */
+
+#banner-grande{
+	height: 300px;
+	background-color: #AEAEAE;
+}
+#menu_principal li{
+	list-style: none;
+	display: block;
+	float: left;
+	padding: 10px;
+	border-right: 1px solid #C8C8C8;
+	background-color: #AEAEAE;
+}
+#menu_principal li a{
+	display: block;
+	padding: 10px 20px;
+}
+#menu_principal{
+	margin-left: 0;
+	background-color: #AEAEAE;
+	height: 40px;
+	margin-bottom: 0;
+}
+#menu_principal li:last-child{
+	border-right: 0 solid transparent;
+}

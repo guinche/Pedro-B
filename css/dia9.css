@@ -1,0 +1,110 @@
+/* dia9.css */
+
+body {
+	width: 960px;
+	margin: 0 auto ;
+	background: #0E84BC;
+	margin-top: 100px;
+}
+.iconos{
+	font-family: 'any-old-icon';
+}
+.menu-icons{
+	padding-left: 0;
+}
+.menu-icons li{
+	list-style: none;
+	width: 160px;
+	display: inline-block;
+	text-align: center;
+}
+.menu-icons li a{
+	color: #060149;
+	text-decoration: none;
+	width: 100px;
+	height: 100px;
+	display: block;
+	border: #F3F3F3 5px solid;
+	border-radius: 100px;
+	font-size: 48px;
+	line-height: 100px;
+
+	-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+		transition: all 1s ease;
+}
+.menu-icons li a:hover {
+	background-color: #F3F3F3;
+	color: #060149;
+
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.menu-icons2{
+	padding-left: 0;
+}
+.menu-icons2 li{
+	list-style: none;
+	float: left;
+	display: block;
+	padding: 20px;
+	margin-right: 50px;
+	border: #F3F3F3 5px solid;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 56px;
+}
+.menu-icons2 li a{
+	color: #060149;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	font-size: 48px;
+	width: 56px;
+	height: 56px;
+}
+.menu-icons2 li:hover{
+	background-color: #F3F3F3;
+}
+.menu-icons2 li a:hover{
+	color: #C390C;
+}
+
+.menu-icons3{
+	padding-left: 0;
+}
+.menu-icons3 li{
+	list-style: none;
+	float: left;
+	display: block;
+	margin-right: 50px;
+	border: 5px solid #024817;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 56px;
+	-webkit-transition: all 1s ease;
+		-moz-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        -o-transition: all 1s ease;
+		transition: all 1s ease;
+}
+.menu-icons3 li a{
+	color: #060149;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	font-size: 48px;
+	width: 96px;
+	height: 96px;
+}
+.menu-icons3 li:hover{
+	border: 10px dotted #022248;
+}
+.menu-icons3 li a:hover{
+	color: #C390C;
+}

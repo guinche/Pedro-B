@@ -1,0 +1,39 @@
+/*dia3.css*/
+
+body{
+	width: 960px;
+	margin: 0 auto;
+}
+p{
+	color: #312D35;
+	font-family: "Ubuntu";
+	text-align: center;
+}
+.parrafo01{
+	letter-spacing: 10px;
+	text-align: center;
+}
+#p1{
+	letter-spacing: 10px;
+	color: #FF8000;
+}
+#p2{
+	letter-spacing: 15px;
+	color: #1582D2;
+}
+#p3{
+	letter-spacing: 20px;
+	color: #004080;
+}
+.caja{
+	width: 600px;
+	display: inline-block;
+}
+.caja_inside{
+	padding: 20px;
+	border: 2px #2D2D2D solid;
+}
+#box{
+	width:200px;
+	display: inline-block;
+}

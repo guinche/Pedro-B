@@ -1,0 +1,115 @@
+/* dia10.css */
+#menu-01{
+	background-color: #000000;
+}
+.menu-logo{
+	width: 300px;
+	height: 30px;
+	display: inline-block;
+}
+.menu-lista ul{
+	padding: 0;
+}
+.menu-lista ul li{
+	text-align: right;
+}
+.menu-lista {
+	display: inline-block;
+	float: right;
+}
+.menu-lista li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+
+}
+.menu-lista li a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.menu-lista li a:hover{
+	text-decoration: none;
+	color: #9CC5D1;
+}
+.fondo-azul{
+	background-color: #0361AD;
+	height: 200px;
+}
+h1{
+	font-family: 'Homenaje', sans-serif;
+	font-size: 65px;
+	font-style: 400;
+	color: #043344;
+	line-height: 130px;
+}
+h2{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 30px;
+	font-style: 400;
+
+}
+h3{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 16px;
+	font-style: 400;
+	margin-top: 0;
+	line-height: 1.5;
+	margin-bottom: -10px;
+}
+h4{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	font-style: 400;
+	margin-top: 0;
+	line-height: 1.5;
+	margin-bottom: -10px;
+	color: #059198;
+}
+h5{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 14px;
+	font-style: 400;
+	margin-top: 10px;
+	line-height: 1.5;
+	margin-bottom: -10px;
+	color: #FFFFFF;
+}
+p{
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 12px;
+	font-style: 400;
+	margin-top: 12px;
+	margin-bottom: -10px;
+}
+.foto{
+	width: 150px;
+	height: 95px;
+}
+.autor span{
+	color: #0361AD;
+
+}
+.bloque{
+	padding-top: 12px;
+}
+#bloque2{
+	padding-top: 12px;
+}
+.fotos {
+	margin-top: 2px;
+}
+.fotos li{
+	list-style: none;
+	padding-top: 15px;
+}
+.tit-der{
+	padding-bottom: 10px;
+}
+#bloque3{
+	padding-top: 12px;
+}
+.fondo-azul2{
+	background-color: #0489F7;
+	height: 40px;
+	margin-top: 14px;
+}

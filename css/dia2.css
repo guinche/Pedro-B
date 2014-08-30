@@ -1,0 +1,26 @@
+/*dia2.css*/
+
+body{
+	background-color: #C0C0C0;
+}
+.parrafos{
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+#x1{
+	color: #004080;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+#parrafo2{
+	color: #00FFFF;
+	text-decoration: overline;
+	text-transform: lowercase;
+}
+#parrafo3{
+	font-variant: small-caps;
+	font-weight: bold;
+	text-decoration: line-through;
+	text-transform: capitalize;
+}
